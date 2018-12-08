@@ -1,0 +1,26 @@
+{
+    "name": "nekudo/shiny_core_app",
+    "description": "ShinyCore bootstrap application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Samtleben",
+            "email": "simon@samtleben.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nekudo\\ShinyCoreApp\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "~/www/shiny_core/"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "nekudo/shiny_core": "dev-master"
+    }
+}

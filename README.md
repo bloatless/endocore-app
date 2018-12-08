@@ -1,2 +1,3 @@
-# shiny_core_app
+# ShinyCore App
+
 ShinyCore Bootstrap Application
