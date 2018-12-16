@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * This file bootstraps/creates you application. Normally there is no need to change this file, but if you want to
+ * inject own/other classes this is would be a good place to start.
+ */
 require_once __DIR__ . '/../vendor/autoload.php';
 
 try {
