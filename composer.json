@@ -1,6 +1,7 @@
 {
     "name": "nekudo/shiny_core_app",
     "description": "ShinyCore bootstrap application",
+    "keywords": ["framework", "bootstrap", "application", "shinycore", "adr"],
     "license": "MIT",
     "homepage": "https://shinycore-framework.com",
     "authors": [
@@ -14,15 +15,9 @@
             "Nekudo\\ShinyCoreApp\\": "app/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "~/www/shiny_core/"
-        }
-    ],
     "require": {
-        "php": "^7.1",
-        "nekudo/shiny_core": "dev-master"
+        "php": "^7.2",
+        "nekudo/shiny_core": ">=0.1"
     },
     "scripts": {
         "post-create-project-cmd": [
