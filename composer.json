@@ -2,6 +2,7 @@
     "name": "nekudo/shiny_core_app",
     "description": "ShinyCore bootstrap application",
     "license": "MIT",
+    "homepage": "https://shinycore-framework.com",
     "authors": [
         {
             "name": "Simon Samtleben",
@@ -22,5 +23,10 @@
     "require": {
         "php": "^7.1",
         "nekudo/shiny_core": "dev-master"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "cp config/config.sample.php config/config.php"
+        ]
     }
 }
