@@ -34,7 +34,7 @@ of your projects vhost to the `public` folder inside your project folder.
 The ShinyCore app sourcecode includes some useful examples and includes inline documentation wherever necessary.
 
 Additionally there is a complete documentation on the
-[ShinyCore frameworks GitHub page](localhost:8080https://github.com/nekudo/shiny_core). 
+[ShinyCore frameworks GitHub page](https://github.com/nekudo/shiny_core). 
 
 ## License
 
