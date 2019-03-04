@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Nekudo\ShinyCoreApp\Actions;
+namespace Bloatless\EndocoreApp\Actions;
 
-use Nekudo\ShinyCore\Action\HtmlAction;
-use Nekudo\ShinyCore\Http\Response;
-use Nekudo\ShinyCoreApp\Domains\HomeDomain;
+use Bloatless\Endocore\Action\HtmlAction;
+use Bloatless\Endocore\Http\Response;
+use Bloatless\EndocoreApp\Domains\HomeDomain;
 
 /**
  * Class HomeAction
@@ -14,7 +14,7 @@ use Nekudo\ShinyCoreApp\Domains\HomeDomain;
  * This is an example of a HtmlAction. In every HtmlAction you have access to the HtmlResponder and
  * can render html templates.
  *
- * @package Nekudo\ShinyCoreApp\Actions
+ * @package Bloatless\EndocoreApp\Actions
  */
 class HomeAction extends HtmlAction
 {

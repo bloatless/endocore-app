@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nekudo\ShinyCoreApp\Domains;
+namespace Bloatless\EndocoreApp\Domains;
 
-use Nekudo\ShinyCore\Domain\DatabaseDomain;
+use Bloatless\Endocore\Domain\DatabaseDomain;
 
 /**
  * Class MyDatabaseDomain
@@ -12,7 +12,7 @@ use Nekudo\ShinyCore\Domain\DatabaseDomain;
  * This is an example of a database domain. Database domains have access to the QueryBuilder factory and can be
  * used to access MySQL databases.
  *
- * @package Nekudo\ShinyCoreApp\Domains
+ * @package Bloatless\EndocoreApp\Domains
  */
 class MyDatabaseDomain extends DatabaseDomain
 {
@@ -21,7 +21,7 @@ class MyDatabaseDomain extends DatabaseDomain
      *
      * @param int $id
      * @return \stdClass
-     * @throws \Nekudo\ShinyCore\Exception\Application\DatabaseException
+     * @throws \Bloatless\Endocore\Exception\Application\DatabaseException
      */
     public function getCustomer(int $id): \stdClass
     {
@@ -38,7 +38,7 @@ class MyDatabaseDomain extends DatabaseDomain
      *
      * @param int $id
      * @param array $data
-     * @throws \Nekudo\ShinyCore\Exception\Application\DatabaseException
+     * @throws \Bloatless\Endocore\Exception\Application\DatabaseException
      * @return void
      */
     public function updateCusomer(int $id, array $data): void

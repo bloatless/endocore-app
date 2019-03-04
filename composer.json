@@ -1,24 +1,32 @@
 {
-    "name": "nekudo/shiny_core_app",
-    "description": "ShinyCore bootstrap application",
+    "name": "bloatless/endocore_app",
+    "description": "Endocore bootstrap application",
     "keywords": ["framework", "bootstrap", "application", "shinycore", "adr"],
     "license": "MIT",
-    "homepage": "https://shinycore-framework.com",
+    "homepage": "https://bloatless.org",
     "authors": [
         {
             "name": "Simon Samtleben",
-            "email": "simon@samtleben.me"
+            "email": "foo@bloatless.org"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Nekudo\\ShinyCoreApp\\": "app/"
+            "Bloatless\\EndocoreApp\\": "app/"
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../shiny_core"
+        }
+    ],
     "require": {
         "php": "^7.2",
-        "nekudo/shiny_core": ">=0.1"
+        "bloatless/endocore": "*"
     },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "scripts": {
         "post-create-project-cmd": [
             "cp config/config.sample.php config/config.php"

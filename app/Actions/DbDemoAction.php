@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Nekudo\ShinyCoreApp\Actions;
+namespace Bloatless\EndocoreApp\Actions;
 
-use Nekudo\ShinyCore\Action\JsonAction;
-use Nekudo\ShinyCore\Exception\Application\DatabaseException;
-use Nekudo\ShinyCore\Http\Response;
-use Nekudo\ShinyCoreApp\Domains\MyDatabaseDomain;
+use Bloatless\Endocore\Action\JsonAction;
+use Bloatless\Endocore\Exception\Application\DatabaseException;
+use Bloatless\Endocore\Http\Response;
+use Bloatless\EndocoreApp\Domains\MyDatabaseDomain;
 
 /**
  * Class DbDemoAction
@@ -15,7 +15,7 @@ use Nekudo\ShinyCoreApp\Domains\MyDatabaseDomain;
  * This is an example of an action which fetches some data from your database and then returns it to the client
  * as JSON encoded string.
  *
- * @package Nekudo\ShinyCoreApp\Actions
+ * @package Bloatless\EndocoreApp\Actions
  */
 class DbDemoAction extends JsonAction
 {

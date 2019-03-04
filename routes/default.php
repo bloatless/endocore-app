@@ -8,27 +8,27 @@ return [
     'home' => [
         'method' => 'GET',
         'pattern' => '/',
-        'handler' => 'Nekudo\ShinyCoreApp\Actions\HomeAction',
+        'handler' => 'Bloatless\EndocoreApp\Actions\HomeAction',
     ],
 
     // Another GET route (Path: /json-demo)
     'json' => [
         'method' => 'GET',
         'pattern' => '/json-demo',
-        'handler' => 'Nekudo\ShinyCoreApp\Actions\JsonDemoAction'
+        'handler' => 'Bloatless\EndocoreApp\Actions\JsonDemoAction'
     ],
 
     //Example of a POST route:
     'create_contact' => [
         'method' => 'POST',
         'pattern' => '/contact',
-        'handler' => 'Nekudo\ShinyCoreApp\Actions\CreateContactAction'
+        'handler' => 'Bloatless\EndocoreApp\Actions\CreateContactAction'
     ],
 
     // Example of a PUT route:
     'update_contact' => [
         'method' => 'PUT',
         'pattern' => '/contact',
-        'handler' => 'Nekudo\ShinyCoreApp\Actions\UpdateContactAction'
+        'handler' => 'Bloatless\EndocoreApp\Actions\UpdateContactAction'
     ]
 ];

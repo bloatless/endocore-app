@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Nekudo\ShinyCoreApp\Actions;
+namespace Bloatless\EndocoreApp\Actions;
 
-use Nekudo\ShinyCore\Action\JsonAction;
-use Nekudo\ShinyCore\Http\Response;
+use Bloatless\Endocore\Action\JsonAction;
+use Bloatless\Endocore\Http\Response;
 
 /**
  * Class JsonDemoAction
@@ -13,7 +13,7 @@ use Nekudo\ShinyCore\Http\Response;
  * This is an example of a JsonAction. In every action of this type you have access to the JsonResponder object
  * which can be used to send JSON encoded data back to the clint.
  *
- * @package Nekudo\ShinyCoreApp\Actions
+ * @package Bloatless\EndocoreApp\Actions
  */
 class JsonDemoAction extends JsonAction
 {

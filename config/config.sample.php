@@ -5,16 +5,14 @@
  */
 
 return [
-    // Paths to html templates, logfiles, ... (In most cases these dont need to be adjusted).
-    'paths' => [
-        'views' => __DIR__ . '/../resources/views',
-        'layouts' => __DIR__ . '/../resources/views/layouts',
-        'logs' => __DIR__ . '/../logs',
+    'logger' => [
+        'path_logs' => __DIR__ . '/../logs',
+        'min_level' => 'warning',
     ],
 
-    'classes' => [
-        // You can define your own template renderer here: (Normally this does not need to be changed)
-        'html_renderer' => '\Nekudo\ShinyCore\Responder\PhtmlRenderer',
+    'templating' => [
+        'path_views' => __DIR__ . '/../resources/views',
+        'path_layouts' => __DIR__ . '/../resources/views/layouts',
     ],
 
     // If you want to use a MySQL database, you need to adjust these settings:
@@ -34,10 +32,5 @@ return [
         ],
 
         'default_connection' => 'db1',
-    ],
-
-    'logger' => [
-        // Here you can set the min. log level for your application:
-        'min_level' => 'warning',
     ],
 ];
