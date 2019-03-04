@@ -15,18 +15,10 @@
             "Bloatless\\EndocoreApp\\": "app/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../shiny_core"
-        }
-    ],
     "require": {
         "php": "^7.2",
-        "bloatless/endocore": "*"
+        "bloatless/endocore": ">=0.2"
     },
-    "prefer-stable": true,
-    "minimum-stability": "dev",
     "scripts": {
         "post-create-project-cmd": [
             "cp config/config.sample.php config/config.php"

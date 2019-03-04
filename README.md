@@ -1,4 +1,12 @@
-# Endocore Sample App
+<p align="center">
+    <img src="https://bloatless.org/img/logo.svg" width="60px" height="80px">
+</p>
+
+<h1 align="center">Bloatless Endocore App</h1>
+
+<p align="center">
+    A boilerplate application for the Endocore framework.
+</p>
 
 You can use this bootstrap application to quickly start a new project based on the
 [Endocore framework](https://github.com/bloatless/endocore).
