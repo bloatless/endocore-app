@@ -1,7 +1,7 @@
 {
     "name": "bloatless/endocore_app",
     "description": "Endocore bootstrap application",
-    "keywords": ["framework", "bootstrap", "application", "shinycore", "adr"],
+    "keywords": ["framework", "bootstrap", "application", "bloatless", "endocore", "adr"],
     "license": "MIT",
     "homepage": "https://bloatless.org",
     "authors": [
