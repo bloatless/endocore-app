@@ -11,8 +11,7 @@ use Bloatless\EndocoreApp\Domains\HomeDomain;
 /**
  * Class HomeAction
  *
- * This is an example of a HtmlAction. In every HtmlAction you have access to the HtmlResponder and
- * can render html templates.
+ * This is an example of a HtmlAction. In every HtmlAction you have access to the HtmlResponder.
  *
  * @package Bloatless\EndocoreApp\Actions
  */
@@ -27,17 +26,12 @@ class HomeAction extends HtmlAction
      */
     public function __invoke(array $arguments = []): Response
     {
-
-        // this assigns a template variable call "firstname" to your view:
-        $this->responder->assign(['firstname' => 'Homer']);
-
         // Fetch some data from a domain:
         $domain = new HomeDomain;
         $data = [
-            'name' => $domain->getName(),
+            'body' => $domain->getWelcomeText(),
         ];
 
-        // Render and return the "/resources/views/home.phtml" view. (Passing the array $data to the template):
-        return $this->responder->show('home', $data);
+        return $this->responder->found($data);
     }
 }

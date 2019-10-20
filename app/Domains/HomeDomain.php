@@ -14,12 +14,12 @@ namespace Bloatless\EndocoreApp\Domains;
 class HomeDomain
 {
     /**
-     * Retrieves a name.
+     * Retrieves welcome text.
      *
      * @return string
      */
-    public function getName(): string
+    public function getWelcomeText(): string
     {
-        return $_SERVER['USER'] ?? 'Stranger';
+        return '<p>Hello World!<br>This is Endocore...</p>';
     }
 }
