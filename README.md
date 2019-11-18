@@ -19,7 +19,7 @@ The easiest way to create a new Endocore application is by using composer. In th
 want to start your project execute the following command:
 
 ```bash
-php composer.phar create-project bloatless/endocore_app my_project_name
+php composer.phar create-project bloatless/endocore-app my_project_name
 ```
 
 You can of course change `my_project_name` to whatever project name you want.
