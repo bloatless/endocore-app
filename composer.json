@@ -1,5 +1,5 @@
 {
-    "name": "bloatless/endocore_app",
+    "name": "bloatless/endocore-app",
     "description": "Endocore bootstrap application",
     "keywords": ["framework", "bootstrap", "application", "bloatless", "endocore", "adr"],
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "require": {
         "php": "^7.2",
-        "bloatless/endocore": ">=0.3"
+        "bloatless/endocore": ">=0.4"
     },
     "scripts": {
         "post-create-project-cmd": [
